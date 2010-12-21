@@ -1,0 +1,12 @@
+:
+Tue Dec 21 07:42:01 MST 2010
+To use this ruleset:
+-Put your cell number in the meta block 
+	key cell "your-number-here"
+-Upload to Kynetx
+-Provision a Twilio phone number
+-Set the SMS webhook (replace XXX and YYY)
+  http://webhooks.kynetxapps.net/t/aXXXxYYY.dev/sms
+-Send an SMS message to the Twilio phone number
+-The message is forwarded to your cell phone
+
